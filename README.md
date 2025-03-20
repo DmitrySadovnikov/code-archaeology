@@ -1,10 +1,12 @@
-# Code Archaeology: Ancient Egyptian Trade Route Optimization
+# Code Archaeology: Ancient Egyptian Challenges
 
 ## Introduction
-In this activity, you will explore an ancient Egyptian trade route optimization program written by the renowned mathematician **Ahmose**. Ahmose, known for his work on the Rhind Mathematical Papyrus, was tasked by Pharaoh Khafre to optimize trade routes between major cities like **Thebes**, **Memphis**, and **Alexandria**. However, Ahmose made a critical error in his calculations, leading to inefficiencies in trade.
+In this activity, you will explore two ancient Egyptian challenges: trade route optimization and pyramid resource calculation. Both challenges involve identifying errors in logic and refactoring code for better readability and maintainability.
 
-## Challenge Overview
-Your task is to identify Ahmose's mistake, correct it, and refactor the code for better readability and maintainability. You will work with programs written in different programming languages: COBOL, Fortran, Lisp, and Prolog.
+## Challenges
+
+1. **Trade Route Optimization**: Review the trade route optimization program and identify Ahmose's mistake. Refactor the code to improve its logic and readability.
+2. **Pyramid Resource Calculation**: Identify errors in the pyramid resource calculation logic and correct them. Refactor the code for better maintainability.
 
 ## Setup Instructions
 For specific setup instructions, please refer to the README files in each language directory:
@@ -14,7 +16,7 @@ For specific setup instructions, please refer to the README files in each langua
 - [Prolog Setup](prolog/README.md)
 
 ## Task
-- **Understand the Code**: Review the program and understand how it calculates the shortest distance between cities.
-- **Identify Ahmose's Mistake**: Look for any logical errors or inefficiencies in the code.
+- **Understand the Code**: Review the programs and understand their logic.
+- **Identify Mistakes**: Look for logical errors or inefficiencies in the code.
 - **Refactor the Code**: Improve the code's readability and maintainability. Consider adding comments or simplifying the logic.
-- **Write Tests**: Create unit tests to ensure the program works correctly for different inputs.
+- **Write Tests**: Create unit tests to ensure the programs work correctly for different inputs.

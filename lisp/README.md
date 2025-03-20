@@ -30,8 +30,14 @@ docker run -it --rm -v $(pwd):/app lisp-dev
 sbcl --load RouteCalc.lisp
 ```
 
+or
+
+```
+sbcl --load PyramidResources.lisp
+```
+
 ## Task
-- **Understand the Code**: Review the `RouteCalc.lisp` program and understand how it calculates the shortest distance between cities.
-- **Identify Ahmose's Mistake**: Look for any logical errors or inefficiencies in the code.
+- **Understand the Code**: Review both programs and understand their logic.
+- **Identify Mistakes**: Look for logical errors or inefficiencies in the code.
 - **Refactor the Code**: Improve the code's readability and maintainability. Consider adding comments or simplifying the logic.
-- **Write Tests**: Create unit tests to ensure the program works correctly for different inputs.
+- **Write Tests**: Create unit tests to ensure the programs work correctly for different inputs.

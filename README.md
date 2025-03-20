@@ -1,13 +1,20 @@
-# Code Archaeology Adventure
-Get ready for a fun journey into ancient programming languages! In this Code Archaeology Adventure, we’ll explore a unique GitHub ~[repository](https://github.com/christianhujer/expensereport)~ filled with rare and forgotten code.
+# Code Archaeology: Ancient Egyptian Trade Route Optimization
 
-# Your Mission
-Choose the oldest and most obscure language you can find. Dive into the legacy code and uncover its secrets. Your goal is to refactor this old code while learning how past programmers solved problems.
+## Introduction
+In this activity, you will explore an ancient Egyptian trade route optimization program written by the renowned mathematician **Ahmose**. Ahmose, known for his work on the Rhind Mathematical Papyrus, was tasked by Pharaoh Khafre to optimize trade routes between major cities like **Thebes**, **Memphis**, and **Alexandria**. However, Ahmose made a critical error in his calculations, leading to inefficiencies in trade.
 
-# Tools of the Trade
-* **Use Copilot**: This trusty AI assistant will help you navigate the code.
-* **Keep Exploring**: If you finish quickly, challenge yourself with another language!
+## Challenge Overview
+Your task is to identify Ahmose's mistake, correct it, and refactor the code for better readability and maintainability. You will work with programs written in different programming languages: COBOL, Fortran, Lisp, and Prolog.
 
-The Adventure Awaits
+## Setup Instructions
+For specific setup instructions, please refer to the README files in each language directory:
+- [COBOL Setup](cobol/README.md)
+- [Fortran Setup](fortran/README.md)
+- [Lisp Setup](lisp/README.md)
+- [Prolog Setup](prolog/README.md)
 
-This is more than just coding; it’s about connecting with programming history. Let’s uncover the mysteries of the past together and have a blast doing it!
+## Task
+- **Understand the Code**: Review the program and understand how it calculates the shortest distance between cities.
+- **Identify Ahmose's Mistake**: Look for any logical errors or inefficiencies in the code.
+- **Refactor the Code**: Improve the code's readability and maintainability. Consider adding comments or simplifying the logic.
+- **Write Tests**: Create unit tests to ensure the program works correctly for different inputs.

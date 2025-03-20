@@ -1,42 +1,37 @@
-Clone a repo with a challenge
+# COBOL Setup
+
+## Introduction
+This directory contains a COBOL program for the ancient Egyptian trade route optimization challenge.
+
+## Setup
+
+1. **Clone the Repository**:
 ```
-git clone git@github.com:jbrains/trivia.git
+git clone git@github.com:DmitrySadovnikov/code-archaeology.git
 ```
 
-Chose a random language and go to its folder
+2. **Navigate to the COBOL Directory**:
 ```
 cd code-archaeology/cobol
 ```
 
-Ask ChatGPT/Perplexity:
-```
-please send me instructions on how to set up a COBOL environment in Docker and run a file from local with COBOL code
-```
-
-Create a Dockerfile (as from GPT response)
-```
-FROM ubuntu:20.04
-
-RUN apt-get update && apt-get install -y \
-    gnucobol \
-    && rm -rf /var/lib/apt/lists/*
-
-WORKDIR /app
-
-CMD ["/bin/bash"]
-```
-
-Build
+3. **Build the Docker Image**:
 ```
 docker build -t gnucobol-env .
 ```
 
-Run the container:
+4. **Run the Docker Container**:
 ```
 docker run -it --rm -v $(pwd):/app gnucobol-env
 ```
 
-Run the code
+5. **Compile and Run the COBOL Program**:
 ```
-cobc -x game.cob && ./game
+cobc -x RouteCalc.cob && ./RouteCalc
 ```
+
+## Task
+- **Understand the Code**: Review the `RouteCalc.cob` program and understand how it calculates the shortest distance between cities.
+- **Identify Ahmose's Mistake**: Look for any logical errors or inefficiencies in the code.
+- **Refactor the Code**: Improve the code's readability and maintainability. Consider adding comments or simplifying the logic.
+- **Write Tests**: Create unit tests to ensure the program works correctly for different inputs.
